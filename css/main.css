@@ -63,4 +63,45 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
+
+#comics .comicsImg img {
+  width: 100%;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+#comics .comicsImg img:hover {
+  -webkit-transform: scale(1.2) rotate(-5deg);
+          transform: scale(1.2) rotate(-5deg);
+  border: 3px solid #d83232;
+}
+
+#comics .comicsImg h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#comics .comicsImg p {
+  text-align: center;
+  padding: 5px;
+}
+
+#comics .comicsParent {
+  margin: 20px 0;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.75);
+}
+
+#comics .footer {
+  border-top: 1px solid #bbb0b0;
+  padding: 15px !important;
+  color: #888;
+  background: #f5f4f4;
+}
+
+.comicsTitle {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
